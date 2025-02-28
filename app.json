@@ -4,24 +4,32 @@
     "slug": "MicroLang",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icons/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icons/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "newArchEnabled": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/icons/adaptive-icon.png",
+        "backgroundColor": "#ffffff",
+        "newArchEnabled": true
+      },
+      "package": "com.karolek123.MicroLang"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icons/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1e352a5f-871f-442b-b844-b5c393db1918"
+      }
     }
   }
 }
